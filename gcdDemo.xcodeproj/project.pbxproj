@@ -12,7 +12,6 @@
 		50508D1E1AD451FC00B08B7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50508D1D1AD451FC00B08B7B /* ViewController.m */; };
 		50508D211AD451FC00B08B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50508D1F1AD451FC00B08B7B /* Main.storyboard */; };
 		50508D231AD451FC00B08B7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50508D221AD451FC00B08B7B /* Images.xcassets */; };
-		50508D261AD451FC00B08B7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50508D241AD451FC00B08B7B /* LaunchScreen.xib */; };
 		50508D321AD451FC00B08B7B /* gcdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50508D311AD451FC00B08B7B /* gcdDemoTests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		50508D1D1AD451FC00B08B7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50508D201AD451FC00B08B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50508D221AD451FC00B08B7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		50508D251AD451FC00B08B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50508D2B1AD451FC00B08B7B /* gcdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gcdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50508D301AD451FC00B08B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50508D311AD451FC00B08B7B /* gcdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gcdDemoTests.m; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				50508D1D1AD451FC00B08B7B /* ViewController.m */,
 				50508D1F1AD451FC00B08B7B /* Main.storyboard */,
 				50508D221AD451FC00B08B7B /* Images.xcassets */,
-				50508D241AD451FC00B08B7B /* LaunchScreen.xib */,
 				50508D151AD451FC00B08B7B /* Supporting Files */,
 			);
 			path = gcdDemo;
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50508D211AD451FC00B08B7B /* Main.storyboard in Resources */,
-				50508D261AD451FC00B08B7B /* LaunchScreen.xib in Resources */,
 				50508D231AD451FC00B08B7B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +246,6 @@
 				50508D201AD451FC00B08B7B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50508D241AD451FC00B08B7B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50508D251AD451FC00B08B7B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

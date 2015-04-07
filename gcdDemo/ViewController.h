@@ -9,7 +9,24 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *lab1;
+    IBOutlet UILabel *lab2;
+    
+    NSString *string1;
+    NSString *string2;
+    
+    dispatch_queue_t dispathQueue;
+}
 
+@property (retain, nonatomic) UILabel *lab1;
+@property (retain, nonatomic) UILabel *lab2;
+
+@property (retain, nonatomic) NSString *string1;
+@property (retain, nonatomic) NSString *string2;
+
+
+- (IBAction)buttonPress:(id)sender;
 
 @end
 
